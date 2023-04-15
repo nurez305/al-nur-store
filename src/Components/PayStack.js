@@ -26,7 +26,7 @@ const PayStack = (props) => {
             return;
         }
         payStack.newTransaction({
-            key: "pk_test_513da27a425b9b63696d1dbe020fad8fc6a08c7a",
+            key: "pk_test_521b8d770765954210b5aeec66d1168ef36bfb74",
             email: email,
             amount: props.amount * 100,
             firstName: firstName,
