@@ -30,7 +30,7 @@ const Services = () => {
                 <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
             </svg>
             <h3>AUTHENTICITY 100% GUARANTEED</h3>
-            <p>At hillsStores, we offer only but the best of products</p>
+            <p>At Al-nur store, we offer only but the best of products</p>
         </div>
     </div>
 }

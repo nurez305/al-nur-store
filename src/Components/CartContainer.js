@@ -167,10 +167,6 @@ const CartContainer = () => {
             setFallBack(false)
         }
 
-        // setItemInclude(prev => !itemFilter)
-        // const filteredItem = Dummy.filter((item) => item)
-
-        // console.log(filteredItem)
     }
 
     return <>
@@ -195,14 +191,6 @@ const CartContainer = () => {
                                 image={item.image} 
                                 />
                 })}
-                {/* <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem />
-                <CartItem /> */}
             </div>
         </div>
     </>
