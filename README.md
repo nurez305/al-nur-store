@@ -1,9 +1,9 @@
 # Nurez Store
 Source code of my E-commerce Store.
 
-## Portfolio website
+## E-commerce website
 
-[See it live! :rocket:](https://saliunurudeen.netlify.com) 
+[See it live! :rocket:](https://al-nur-store.netlify.app/) 
 
 * Design Inspiration from Dribble, Twitter, Upwork
 
