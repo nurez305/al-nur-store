@@ -1,5 +1,3 @@
-// import img from "../images/CartBackground1.jpg";
-// import img1 from "../images/cartBackground.jpg";
 import img2 from "../images/sneaker.webp";
 import img3 from "../images/wristwatch.jpg";
 

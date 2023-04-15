@@ -1,6 +1,5 @@
 import { useState, useContext } from "react";
 import { CartContext } from "./context/CartContext";
-// import img from "../images/Shirt.jpg";
 import classes from "./CartItem.module.css";
 
 const CartItem = (props) => {
@@ -73,20 +72,6 @@ const CartItem = (props) => {
         <button className={classes.cartitem__btn} onClick={addItemHandler}>Add to Cart</button>
     </div>
 </div>
-    
-    // <div className="col-sm-8 col-md-3 col-lg-2">
-    //     <img src={props.img} alt={props.description} />
-    //     <p>{props.name}</p>
-    //     <div>
-    //         <p>{props.price}</p>
-    //         <p>{props.total}</p>
-    //     </div>
-    //     <div>
-    //         <button>-</button>
-    //         <p>{props.quantity}</p>
-    //         <button>+</button>
-    //     </div>
-    // </div>
 }
 
 export default CartItem;

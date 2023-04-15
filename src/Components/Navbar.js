@@ -92,5 +92,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-// style={{marginTop: "-1.0rem", marginRight: "-0.5rem"}}

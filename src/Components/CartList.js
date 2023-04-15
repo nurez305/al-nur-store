@@ -1,5 +1,4 @@
 import classes from "./CartList.module.css";
-// import img from "../images/Shirt.jpg";
 import { useState, useContext } from "react";
 import { CartContext } from "./context/CartContext";
 

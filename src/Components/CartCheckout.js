@@ -1,32 +1,21 @@
 import { CartContext } from "./context/CartContext";
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router";
-
 import classes from "./CartCheckout.module.css";
-// import Navbar from "./Navbar";
-// import img from "../images/Shirt.jpg";
 import CartList from "./CartList";
 import Backdrop from "./Backdrop";
 import PayStack from "./PayStack";
-// import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 
 
 const CartCheckout = () => {
     const navigate = useNavigate();
     const ctx = useContext(CartContext);
-    // const [total, setTotal] = useState()
     const [check, setCheck] = useState(false)
 
     const cancelSetOut = () => {
         setCheck(false)
     }
-
-    // const changeSetOut = () => {
-    //     setCheck(true);
-    // }
-
-    // const [qty, setQty] = useState(props.quantity);
 
     console.log(ctx.items)
 
