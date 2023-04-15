@@ -1,0 +1,88 @@
+.payment{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    z-index: 10;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 15rem);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.control {
+    margin: 1rem;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    color: #494949;
+  }
+
+  .control input {
+    font: inherit;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: #494949;
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .control input:focus {
+    outline: none;
+    border-color: #ff0062;
+  }
+
+  .confirmBtn{
+    background-color: rgb(20, 211, 84);
+    border-color: rgb(20, 211, 84);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .cancelBtn{
+    background-color: rgb(211, 20, 20);
+    border-color: rgb(211, 20, 20);
+    color: white;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .confirmOrder{
+    margin-left: 18rem;
+    margin-top: 1rem;
+    color: red;
+  }
+
+  @media (min-width: 250px) and (max-width: 495px) {
+    .payment{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+        background-color: white;
+        padding: 1rem;
+        text-align: center;
+        width: 15rem;
+        z-index: 10;
+        position: fixed;
+        top: 20vh;
+        margin-left: 7.5rem;
+        padding: 1rem;
+    }
+
+    .confirmOrder{
+        margin-left: 0rem;
+        margin-top: 1rem;
+        color: red;
+      }
+  } 

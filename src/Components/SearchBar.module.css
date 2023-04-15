@@ -1,0 +1,24 @@
+.search_bar{
+    position: relative;
+    width: 80%;
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 2rem auto;
+}
+
+.search_field{
+    width: 100%;
+    text-indent: 2.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(13, 10, 10, 0.5);
+}
+
+.search_field:focus{
+    outline: none;
+    /* border: 2px solid rgb(191, 22, 22); */
+    border: 2px solid rgba(138, 137, 137, 0.5);
+}
+
+::placeholder{
+    text-indent: 2.5rem;
+}

@@ -1,0 +1,26 @@
+.service_sect{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.service_icon{
+    background-color: rgba(221, 221, 221, 0.5);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.service_section{
+    margin: 1rem;
+}
+
+@media (min-width: 768px){
+    .service_sect{
+        flex-direction: row;
+    }
+
+    .service_section{
+        width: 25%;
+    }
+}
