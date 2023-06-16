@@ -50,10 +50,10 @@ const CartItem = (props) => {
     <div className={classes.cartitem_amount}>
         <div>
             <p className={classes.cartitem_name}>{props.name}</p>
-            <p>${props.amount}</p>
+            <p>₦{props.amount}</p>
         </div>
         <p>Total <br />
-            <span style={{fontWeight: "bold"}}>${total}</span>
+            <span style={{fontWeight: "bold"}}>₦{total}</span>
         </p>
     </div>
     <div className={classes.cartitem_amount}>

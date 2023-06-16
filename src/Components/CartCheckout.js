@@ -48,7 +48,7 @@ const CartCheckout = () => {
                 {checkOut}
                 {ctx.items.length > 0 && 
                 <div className={`container ${classes.payment_action}`}>
-                    <p>Total: $<span style={{fontWeight: "bold", color: "red"}}>{ctx.total}</span></p>
+                    <p>Total: ₦<span style={{fontWeight: "bold", color: "red"}}>{ctx.total}</span></p>
                     <button onClick={setCheck} className={classes.proceed__checkout}>Proceed to Payment</button>
                 </div>
                 }

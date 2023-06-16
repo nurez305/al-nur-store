@@ -65,10 +65,10 @@ const CartList = (props) => {
         </div>
         <div className={classes.cartitem_amount}>
             <p>Price <br />
-                <span>${props.amount}</span>
+                <span>₦{props.amount}</span>
             </p>
             <p>Total <br />
-                <span style={{fontWeight: "bold"}}>${total}</span>
+                <span style={{fontWeight: "bold"}}>₦{total}</span>
             </p>
             <button className={classes.remove__item} onClick={removeItemHandler}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
